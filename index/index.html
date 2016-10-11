@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<audio controls>
+  <source src="../media/song.ogg" type="audio/ogg">
+  <source src="../media/song.mp4" type="audio/mpeg">
+</audio>
+
+  <!---~~~~~=====-{~*+*~}-=====~~~~~--->
+
+  <body>
+    <center><svg id="MEME" width="100%" viewBox="0 0 100 170">
+      <rect x="0" y="0" width="100%" height="100%"/>
+<!--Misc Colors or Needed Stuff-->
+<defs>
+  <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);
+    stop-opacity:0" />
+    <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+  </radialGradient>
+</defs>
+
+  <!--Sprites-->
+    <!--Title-->
+<g font-family="Poiret One">
+  <text x="30" y="-5" transform="rotate(40 20,40)" fill="white">
+    Closer
+  </text>
+  <text x="32" y="0" font-size="5" transform="rotate(40 20,40)" fill="white">
+    The Chainsmokers
+  </text>
+  <text x="45" y="3" font-size="3" transform="rotate(40 20,40)" fill="white">
+    ft. Hasley
+  </text>
+  <animate attributeName="fill" from="white" to="magenta" dur="3s" repeatCount="indefinite"/>
+</g>
+<!--Paragraph-->
+<g transform="translate(50 110)" font-size="3" fill="white" opacity="0">
+    <text x="-45" y="0">Hey, I was doing just fine before I met you </text>
+    <text x="-40" y="3">I drink too much and that's an issue but I'm okay</text>
+    <text x="-35" y="6">Hey, you tell your friends it was nice to meet them</text>
+    <text x="-30" y="9">But I hope I never see them again</text>
+    <text x="-25" y="12">I know it breaks your heart</text>
+    <text x="-20" y="15">Moved to the city in a broke down car</text>
+    <text x="-15" y="18">And four years, no calls</text>
+    <text x="-10" y="21">Now you're looking pretty in a hotel bar</text>
+    <text x="-5" y="24">And I can't stop</text>
+    <text x="-0" y="27">No, I can't stop</text>
+    <text x="-15" y="30">So baby pull me closer in the backseat of your Rover</text>
+    <text x="-20" y="33">That I know you can't afford</text>
+    <text x="-25" y="36">Bite that tattoo on your shoulder</text>
+    <text x="-30" y="39">Pull the sheets right off the corner</text>
+    <text x="-35" y="42">Of the mattress that you stole</text>
+    <text x="-40" y="45">From your roommate back in Boulder</text>
+    <text x="-45" y="48">We ain't ever getting older</text>
+
+    <animate id="P1" attributeName="opacity" from="0" to="1" dur="2s" begin="B1.end" fill="freeze"/>
+      <animate attributeName="fill" from="white" to="magenta" dur="5s" begin="P1.end" repeatCount="indefinite"/>
+</g>
+<!--Equalizers-->
+<g>
+      <!--Bar 1-->
+        <rect x="15" y="100" rx="1" ry="10" width="10" height="25" fill="white" opacity="1">
+          <animate id="B1" attributeName="y" from="100" to="30" dur="5s" fill="freeze" begin="click"/>
+      </rect>
+          <!--EQ Bar1-->
+          <g fill="white" transform="translate(13.5 40) rotate(180 6.5 30)" opacity="0">
+              <!--Eq Idv. 1-->
+          <g>
+            <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+              </g>
+                <!--Eq idv. 2-->
+                <g>
+            <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+                </g>
+                <!--Eq idv. 3-->
+                <g>
+            <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+                </g>
+                <!--Eq idv. 4-->
+                <g>
+            <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A1.end" repeatCount="indefinite"></rect>
+                </g>
+                <!--Eq idv. 5-->
+                <g>
+            <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+              <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+                </g>
+                <animate id="A1" attributeName="opacity" from="0" to="1" dur="2s" begin="B1.end" fill="freeze">
+                  </g>
+
+          <!--Eq Bar1 v2-->
+          <g fill="white" transform="translate(13.5 -13)"opacity="0">
+                <!--Eq Idv. 1-->
+                <g>
+                  <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+                    </g>
+                      <!--Eq idv. 2-->
+                      <g>
+                  <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <!--Eq idv. 3-->
+                      <g>
+                  <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A1.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <!--Eq idv. 4-->
+                      <g>
+                  <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A1.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <!--Eq idv. 5-->
+                      <g>
+                  <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+                    <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A1.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <animate id="A1" attributeName="opacity" from="0" to="1" dur="2s" begin="B1.end" fill="freeze">
+                        </g>
+
+        <!--Bar 2-->
+        <rect x="30" y="100" width="10" rx="1" ry="10" height="25" fill="white">
+          <animate id="B2" attributeName="y" from="100" to="40" dur="5s" fill="freeze" begin="click"/>
+          </rect>
+              <!--EQ Bar1-->
+              <g fill="white" transform="translate(28.5 -5)" opacity="0">
+                <!--Eq idv. 1-->
+                <g>
+                  <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                    </g>
+                      <!--Eq idv. 2-->
+                      <g>
+                  <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <!--Eq idv. 3-->
+                      <g>
+                  <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <!--Eq idv. 4-->
+                      <g>
+                  <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A2.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <!--Eq idv. 5-->
+                      <g>
+                  <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                    <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <animate id="A2" attributeName="opacity" from="0" to="1" dur="2s" begin="B2.end" fill="freeze">
+                      </g>
+                  <!--Eq Bar2-->
+                  <g fill="white" transform="translate(28.5 50) rotate(180 6.5 30)" opacity="0">
+                    <!--Eq idv. 1-->
+                    <g>
+                      <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                        </g>
+                          <!--Eq idv. 2-->
+                          <g>
+                      <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                          </g>
+                          <!--Eq idv. 3-->
+                          <g>
+                      <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A2.end" repeatCount="indefinite"></rect>
+                          </g>
+                          <!--Eq idv. 4-->
+                          <g>
+                      <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A2.end" repeatCount="indefinite"></rect>
+                          </g>
+                          <!--Eq idv. 5-->
+                          <g>
+                      <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                        <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A2.end" repeatCount="indefinite"></rect>
+                          </g>
+                          <animate id="A2" attributeName="opacity" from="0" to="1" dur="2s" begin="B2.end" fill="freeze">
+                          </g>
+
+      <!--Bar 3-->
+      <rect x="45" y="100" width="10" rx="1" ry="10" height="25" fill="white">
+        <animate id="B3" attributeName="y" from="100" to="50" dur="5s" fill="freeze" begin="click" />
+        </rect>
+        <!--EQ Bar3-->
+        <g fill="white" transform="translate(43.5 5)" opacity="0">
+          <!--Eq idv. 1-->
+          <g>
+            <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+              </g>
+                <!--Eq idv. 2-->
+                <g>
+            <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                </g>
+                <!--Eq idv. 3-->
+                <g>
+            <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                </g>
+                <!--Eq idv. 4-->
+                <g>
+            <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A3.end" repeatCount="indefinite"></rect>
+                </g>
+                <!--Eq idv. 5-->
+                <g>
+            <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+              <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                </g>
+                <animate id="A3" attributeName="opacity" from="0" to="1" dur="2s" begin="B3.end" fill="freeze">
+                </g>
+            <!--Eq Bar2-->
+            <g fill="white" transform="translate(43.5 60) rotate(180 6.5 30)" opacity="0">
+              <!--Eq idv. 1-->
+              <g>
+                <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  </g>
+                    <!--Eq idv. 2-->
+                    <g>
+                <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                    </g>
+                    <!--Eq idv. 3-->
+                    <g>
+                <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                    </g>
+                    <!--Eq idv. 4-->
+                    <g>
+                <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A3.end" repeatCount="indefinite"></rect>
+                    </g>
+                    <!--Eq idv. 5-->
+                    <g>
+                <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                    </g>
+                    <animate id="A3" attributeName="opacity" from="0" to="1" dur="2s" begin="B3.end" fill="freeze">
+                    </g>
+      <!--Bar 4-->
+      <rect x="60" y="100" width="10" rx="1" ry="10" height="25" fill="white">
+        <animate id="B4"attributeName="y" from="100" to="60" dur="5s" fill="freeze" begin="click"/>
+        </rect>
+        <!--EQ Bar4-->
+        <g fill="white" transform="translate(58.5 13)" opacity="0">
+          <!--Eq idv. 1-->
+          <g>
+            <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A4.end" repeatCount="indefinite"></rect>
+              </g>
+                <!--Eq idv. 2-->
+                <g>
+            <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A4.end" repeatCount="indefinite"></rect>
+                </g>
+                <!--Eq idv. 3-->
+                <g>
+            <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A4.end" repeatCount="indefinite"></rect>
+                </g>
+                <!--Eq idv. 4-->
+                <g>
+            <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A4.end" repeatCount="indefinite"></rect>
+                </g>
+                <!--Eq idv. 5-->
+                <g>
+            <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A4.end" repeatCount="indefinite"></rect>
+              <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A4.end" repeatCount="indefinite"></rect>
+                </g>
+                <animate id="A4" attributeName="opacity" from="0" to="1" dur="2s" begin="B4.end" fill="freeze">
+                </g>
+            <!--Eq Bar2-->
+            <g fill="white" transform="translate(58.5 70) rotate(180 6.5 30)" opacity="0">
+              <!--Eq idv. 1-->
+              <g>
+                <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  </g>
+                    <!--Eq idv. 2-->
+                    <g>
+                <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                    </g>
+                    <!--Eq idv. 3-->
+                    <g>
+                <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A3.end" repeatCount="indefinite"></rect>
+                    </g>
+                    <!--Eq idv. 4-->
+                    <g>
+                <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A3.end" repeatCount="indefinite"></rect>
+                    </g>
+                    <!--Eq idv. 5-->
+                    <g>
+                <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                  <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A3.end" repeatCount="indefinite"></rect>
+                    </g>
+                    <animate id="A4" attributeName="opacity" from="0" to="1" dur="2s" begin="B4.end" fill="freeze">
+                    </g>
+      <!--Bar 5-->
+      <rect x="75" y="100" width="10" rx="1" ry="10" height="25" fill="white">
+        <animate id="B5"attributeName="y" from="100" to="70" dur="5s" fill="freeze" begin="click"/>
+          </rect>
+          <!--EQ Bar5-->
+          <g fill="white" transform="translate(73.5 25)" opacity="0">
+            <!--Eq idv. 1-->
+            <g>
+              <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                </g>
+                  <!--Eq idv. 2-->
+                  <g>
+              <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                  </g>
+                  <!--Eq idv. 3-->
+                  <g>
+              <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                  </g>
+                  <!--Eq idv. 4-->
+                  <g>
+              <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A5.end" repeatCount="indefinite"></rect>
+                  </g>
+                  <!--Eq idv. 5-->
+                  <g>
+              <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                  </g>
+                  <animate id="A5" attributeName="opacity" from="0" to="1" dur="2s" begin="B5.end" fill="freeze">
+                  </g>
+              <!--Eq Bar2-->
+              <g fill="white" transform="translate(73.5 80) rotate(180 6.5 30)" opacity="0">
+                <!--Eq idv. 1-->
+                <g>
+                  <rect x="2" y="50" width="1" height="5" ><animate attributeName="y" from="50" to="40" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="2" y="46" width="1" height="1" ><animate attributeName="y" from="46" to="36" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="2" y="48" width="1" height="1" ><animate attributeName="y" from="48" to="38" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                    </g>
+                      <!--Eq idv. 2-->
+                      <g>
+                  <rect x="4" y="45" width="1" height="10"><animate attributeName="y" from="45" to="37" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="4" y="42" width="1" height="2"><animate attributeName="y" from="42" to="34" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="4" y="39" width="1" height="2"><animate attributeName="y" from="39" to="32" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <!--Eq idv. 3-->
+                      <g>
+                  <rect x="6" y="35" width="1" height="20"><animate attributeName="y" from="35" to="45" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="6" y="32" width="1" height="2"><animate attributeName="y" from="32" to="42" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="6" y="29" width="1" height="2"><animate attributeName="y" from="29" to="39" dur=".3s" begin="A5.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <!--Eq idv. 4-->
+                      <g>
+                  <rect x="8" y="40" width="1" height="15" ><animate attributeName="y" from="40" to="30" dur=".4s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="8" y="37" width="1" height="2" ><animate attributeName="y" from="37" to="27" dur=".4s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="8" y="34" width="1" height="2" ><animate attributeName="y" from="34" to="24" dur=".4s" begin="A5.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <!--Eq idv. 5-->
+                      <g>
+                  <rect x="10" y="47" width="1" height="8" ><animate attributeName="y" from="47" to="37" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="10" y="44" width="1" height="2" ><animate attributeName="y" from="44" to="34" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                    <rect x="10" y="41" width="1" height="2" ><animate attributeName="y" from="41" to="31" dur=".5s" begin="A5.end" repeatCount="indefinite"></rect>
+                      </g>
+                      <animate id="A5" attributeName="opacity" from="0" to="1" dur="2s" begin="B5.end" fill="freeze">
+                      </g>
+  <!---~~~~~=====-{~*+*~}-=====~~~~~--->
+    <circle cx="95" cy="5" r="10" fill="purple" opacity="0.7"/>
+    <circle cx="85" cy="5" r="5" fill="pink" opacity="0.7"/>
+    <circle cx="95" cy="15" r="7" fill="lightblue" opacity="0.7"/>
+    <circle cx="87" cy="12" r="4" fill="lightgreen" opacity="0.7"/>
+  <!---~~~~~=====-{~*+*~}-=====~~~~~--->
+  <g transform="scale (.3) translate(0 270)" opacity="0">
+  <g transform><polygon fill="magenta" points="30,4 4,60 60,60" opacity="0.7"/><polygon></g>
+  <g transform= "translate (40 0)"><polygon fill="purple"points="30,4 4,60 60,60" opacity="0.7"/><polygon></g>
+  <g transform= "translate (20 20)"><polygon fill="pink" points="30,4 4,60 60,60" opacity="0.7"/><polygon></g>
+  <animate attributeName="opacity" from="0" to="0.7" dur="6s" begin="A1.end" fill="freeze"/>
+  </g>
+</svg></center>
+
+
+
+
+
+
+
+
+  </body>
